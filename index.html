@@ -3,22 +3,45 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="main.js"></script>
     
     <a href="index.html"><img src="images/smirkingpepe.jpg"></a><br>
 </head>
 <body>
-    <h1>Road to One Mil $$$</h1>
-    <h2>The website documentation of progress</h2><br>
-    <!--redirect buttons-->
-    <button class="btn journals" onclick="window.location.href='journals.html';">Journals</button><br><br>
-    <button class="btn journals" onclick="window.location.href='gym.html';">Gym</button><br><br>
-    <!--upload button-->
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="tyisPics" id="tyisPics">
-        <input type="submit" value="Upload Image" name="submit">
-    </form>
+    <div class="web description">
+        <hr>
+        <h1>Escaping the <b>Matrix</b></h1>
+        <h2>The website documentation of progress</h2>
+        <hr>
+        <p>
+            This is a project website I created in order to practice HTML, CSS, JavaScript,<br>
+            and any other programming language that I might need to learn in order to land<br>
+            myself a tech job.
+        </p>
+        <p>
+            The goal for this website is of course for it to be functional and for me to<br>
+            learn new things but my main focus is getting this website to look nice<br>
+            through CSS and JavaScript.
+        </p>
+        <p>
+            Although one thing I hope to avoid with this website is for it to become bloated.<br>
+            I don't want the code to be a massive mess and I don't want the website to load<br>
+            slowly or for it to look like a mess either. The plan is to keep it minimal and<br>
+            elegant but also avoid making it look generic. Hopefully I can find the artistic<br>
+            sweet spot.
+        </p>
+    </div>
+    <div class="redirect buttons">
+        <button class="btn journals" onclick="window.location.href='journals.html';">Journals</button>
+        <button class="btn journals" onclick="window.location.href='gym.html';">Gym</button>
+        <br><br>
+    </div>
+    <div class="upload files">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="tyisPics" id="tyisPics">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+    </div>
 </body>
 </html>
