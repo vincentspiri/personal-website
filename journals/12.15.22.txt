@@ -1,0 +1,31 @@
+December 15th 2022 18:03
+516 E Parkinson St Viroqua WI
+
+Hello friend
+
+Another day another dollar, but in a month those dollars will be coming from Walmart instead of Kwiktrip.
+I put in my 2 week notice yesterday so my last day of work at Kwiktrip will be on the 29th.
+Am I glad I had to do this?
+No.
+But I don't think it will be that bad.
+I'll get to meet some new people at Walmart and I can focus on myself.
+I'm pretty excited about my website I'm building.
+I'm making pretty good progress everyday.
+Maybe I should make a change log to document the work I do.
+I just got done implementing a dark-mode button but it needs a bit more work.
+I can't get the whole website to stay in dark-mode after pressing the button.
+But I'm sure there's an easy fix for that.
+I'm pretty happy about the color scheme for the dark-mode so maybe I'll make that my default and remove the button alltogether.
+I'm not sure.
+My next steps are probably to make the website look more like a professional website.
+And password protect my journal entries so I can port forward it.
+Then probably add some other element to the website like a music category or something.
+Links to github and instagram would be cool.
+I'll eventually have to look into Node.js and React but I don't want to take on too much at once.
+But yeah, pretty good day.
+We'll see how the weekend goes since I'm closing with Lydia both days.
+I'll do the floors on Saturday and she can do them on Sunday.
+I think that's fair enough to not get yelled at.
+What does it really matter though?
+Lydia is Lora's pet anyways.
+Never trust a home school kid.
