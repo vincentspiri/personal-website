@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -35,13 +37,14 @@
     </div>
     <br><br>
     <div class="redirect buttons">
-        <button class="btn journals" onclick="window.location.href='pepe.html'"><b>Pepe Collection</b></button>
+        <button class="btn journals" onclick="window.location.href='pepe.html'"><b>Pepe Collection</b></button><br><br>
+        <button class="btn journals" onclick="window.location.href='gains.html'"><b>Workouts</b></button>
     </div>
     <br><br>
     <div class="anonymous message">
-        <form action="anonymous.php" method="post">
+        <form action="php/anonymous.php" method="post">
             <h2>Send me a message:</h2>
-            <textarea id="anon-message" name="anon-message" rows="4" cols="50"></textarea><br>
+            <textarea id="anon-message" name="anon-message" rows="4" cols="50"></textarea><br><br>
             <input type="submit" value="Submit" class="btn journals">
         </form>
     </div>
@@ -55,7 +58,7 @@
     </div>
     <br><br>
     <div class="upload files">
-        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <form action="php/upload.php" method="post" enctype="multipart/form-data">
             <input type="file" name="tyisPics" id="tyisPics">
             <input type="submit" value="Upload Image" name="submit">
         </form>
