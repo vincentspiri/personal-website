@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="main.js"></script>
-    
+
     <link rel="icon" href="images/pepe/smirkingpepe_icon.jpg" type="image/x-icon">
 
+</head>
+
+<body>
     <ul class="nav-bar">
         <li><a href="index.html" class="nav-bar">Home</a></li>
         <li><a href="pepe.html" class="nav-bar">Pepe Collection</a></li>
@@ -17,57 +21,64 @@
     </ul>
     <br>
     <a href="index.html"><img src="images/pepe/smirkingpepe.jpg" style="max-width: 25%;"></a><br>
-</head>
-<body>
-    <div class="web description">
-        <hr>
-        <h1>Escaping the <b>Matrix</b></h1>
-        <h2>The website documentation of progress</h2>
-        <hr>
-        <p>
-            This is a project website I created in order to practice HTML, CSS, JavaScript,<br>
-            and any other programming language that I might need to learn in order to land<br>
-            myself a tech job.
-        </p>
-        <p>
-            The goal for this website is of course for it to be functional and for me to<br>
-            learn new things but my main focus is getting this website to look nice<br>
-            through CSS and JavaScript.
-        </p>
-        <p>
-            Although one thing I hope to avoid with this website is for it to become bloated.<br>
-            I don't want the code to be a massive mess and I don't want the website to load<br>
-            slowly or for it to look like a mess either. The plan is to keep it minimal and<br>
-            elegant but also avoid making it look generic. Hopefully I can find the artistic<br>
-            sweet spot.
-        </p>
-    </div>
-    <br><br>
-    <div class="anonymous message">
-        <form action="php/anonymous.php" method="post">
-            <h2>Send me a message:</h2>
-            <textarea id="anon-message" name="anon-message" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Submit" class="btn journals">
-        </form>
-    </div>
-    <br><br>
-    <div class="social media">
-        <h1>My Social Media/Links</h1>
-        <a href="https://www.instagram.com/vincent_van_go_gym" target="_blank"><img src="images/Instagram_icon.png" style="max-width: 5%;"></a>
-        <a href="https://www.snapchat.com/add/vincentspiri?share_id=NhAaoNv63h4&locale=en-US" target="_blank"><img src="images/snapchat_logo.png" style="max-width: 5%;"></a>
-        <a href="https://github.com/vincentspiri" target="_blank"><img src="images/github_logo.png" style="max-width: 5%;"></a>
-        <a href="https://account.venmo.com/u/vincespiri" target="_blank"><img src="images/venmo_logo.png" style="max-width: 5%;"></a>
-        <a href="https://www.linkedin.com/in/vincent-spiri-1202b925b/" target="_blank"><img src="images/linkedin_logo.png" style="max-width: 5%;"></a>
-    </div>
-    <br><br>
-    <div class="upload files">
-        <form action="php/upload.php" method="post" enctype="multipart/form-data">
-            <input type="file" name="tyisPics" id="tyisPics">
-            <input type="submit" value="Upload Image" name="submit">
-        </form>
-    </div>
-    <div class="blank space">
+    <main>
+        <section class="web description">
+            <hr>
+            <h1>Escaping the <b>Matrix</b></h1>
+            <h2>The website documentation of progress</h2>
+            <hr>
+            <p>
+                This is a project website I created in order to practice HTML, CSS, JavaScript,<br>
+                and any other programming language that I might need to learn in order to land<br>
+                myself a tech job.
+            </p>
+            <p>
+                The goal for this website is of course for it to be functional and for me to<br>
+                learn new things but my main focus is getting this website to look nice<br>
+                through CSS and JavaScript.
+            </p>
+            <p>
+                Although one thing I hope to avoid with this website is for it to become bloated.<br>
+                I don't want the code to be a massive mess and I don't want the website to load<br>
+                slowly or for it to look like a mess either. The plan is to keep it minimal and<br>
+                elegant but also avoid making it look generic. Hopefully I can find the artistic<br>
+                sweet spot.
+            </p>
+        </section>
+        <br><br>
+        <section class="anonymous message">
+            <form action="php/anonymous.php" method="post">
+                <h2>Send me a message:</h2>
+                <textarea id="anon-message" name="anon-message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Submit" class="btn journals">
+            </form>
+        </section>
+        <br><br>
+        <section class="social media">
+            <h1>My Social Media/Links</h1>
+            <a href="https://www.instagram.com/vincent_van_go_gym" target="_blank"><img src="images/Instagram_icon.png"
+                    style="max-width: 5%;"></a>
+            <a href="https://www.snapchat.com/add/vincentspiri?share_id=NhAaoNv63h4&locale=en-US" target="_blank"><img
+                    src="images/snapchat_logo.png" style="max-width: 5%;"></a>
+            <a href="https://github.com/vincentspiri" target="_blank"><img src="images/github_logo.png"
+                    style="max-width: 5%;"></a>
+            <a href="https://account.venmo.com/u/vincespiri" target="_blank"><img src="images/venmo_logo.png"
+                    style="max-width: 5%;"></a>
+            <a href="https://www.linkedin.com/in/vincent-spiri-1202b925b/" target="_blank"><img
+                    src="images/linkedin_logo.png" style="max-width: 5%;"></a>
+        </section>
+        <br><br>
+        <section class="upload files">
+            <form action="php/upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="tyisPics" id="tyisPics">
+                <input type="submit" value="Upload Image" name="submit">
+            </form>
+        </section>
+    </main>
+    <section class="blank space">
         <br><br><br><br><br><br><br><br>
-    </div>
+    </section>
+    <footer>testing</footer>
 </body>
+
 </html>
