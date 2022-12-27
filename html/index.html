@@ -8,7 +8,7 @@
     <title>Home</title>
 
     <link href="../style.css" rel="stylesheet" type="text/css" />
-    <script src="main.js"></script>
+    <script src="../main.js"></script>
     <link rel="icon" href="../images/pepe/smirkingpepe_icon.jpg" type="image/x-icon">
 </head>
 
@@ -19,9 +19,16 @@
         <li><a href="gains.html" class="nav-bar">Workouts</a></li>
         <li><a href="jstest.html" class="nav-bar">Javascript Testing</a></li>
         <li><a href="contact.html" class="nav-bar">Contact</a></li>
+        <!--Everything below this goes to the right of the page-->
+        <li style="float: right">
+            <a href="https://www.instagram.com/vincent_van_go_gym" class="nav-bar" style="max-height: 19px; max-width: 26px" target="_blank">
+                <img src="../images/instagram_simple.png" width="20">
+            </a>
+        </li>
+
     </ul>
     <br>
-    <a href="index.html" ><img src="../images/pepe/smirkingpepe.jpg" style="max-width: 25%;"></a><br>
+    <a href="index.html"><img src="../images/pepe/smirkingpepe.jpg" style="max-width: 25%;"></a><br><br>
     <main>
         <section class="web-description">
             <hr>
@@ -30,11 +37,14 @@
             <hr>
             <br><br>
             <p>
-                This is a project website I created in order to practice HTML, CSS, JavaScript,
-                and any other programming language that I might need to learn in order to land
-                myself a tech job. The goal for this website is of course for it to be functional and for me to
-                learn new things but my main focus is getting this website to look nice
-                through CSS and JavaScript.
+                This is a project website that was created with the purpose of learning and practicing HTML, CSS,
+                JavaScript,
+                and any other programming languages that might be needed in order to code an amazing website.
+                The goal for this website is of course for it to be a functioning website where I can showcase projects
+                that I'm working on etc.
+                but I also want the website to look nice. Many people, including me, like things that are visually
+                appealng and a lot of the times
+                driven to like something despite it's many flaws just because it looks nice. Like a BMW.
             </p>
             <br>
             <p>
@@ -44,11 +54,12 @@
                 elegant but also avoid making it look generic. Hopefully I can find the artistic
                 sweet spot.
             </p>
-            <br><br><hr>
+            <br><br>
+            <hr>
         </section>
         <br><br>
         <section class="upload files">
-            <form action="php/upload.php" method="post" enctype="multipart/form-data">
+            <form action="../php/upload.php" method="post" enctype="multipart/form-data">
                 <input type="file" name="tyisPics" id="tyisPics">
                 <input type="submit" value="Upload Image" name="submit">
             </form>
